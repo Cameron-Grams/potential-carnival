@@ -1,4 +1,5 @@
 require("grambo.remap")
 
 --vim.cmd("colorscheme base16-gruvbox-material-dark-soft")
-require("zenburn").setup()
+-- require("zenburn").setup()
+vim.cmd[[colorscheme solarized-osaka]]

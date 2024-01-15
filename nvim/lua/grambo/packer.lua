@@ -15,11 +15,11 @@ return require('packer').startup(function(use)
 
 --  use {"rebelot/kanagawa.nvim"}
 --  use {"RRethy/nvim-base16"}
-
-  use {
-      "phha/zenburn.nvim",
-      config = function() require("zenburn").setup() end
-  }
+    use {"craftzdog/solarized-osaka.nvim"}
+--  use {
+--      "phha/zenburn.nvim",
+--      config = function() require("zenburn").setup() end
+--  }
 
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
